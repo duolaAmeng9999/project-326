@@ -13,5 +13,12 @@ module.exports = {
         store: resolve("src/store")
       }
     }
+  },
+  devServer: {
+    proxy: {
+      "/wenjing": {
+        traget: " x"
+      }
+    }
   }
 };
