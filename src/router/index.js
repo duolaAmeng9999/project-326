@@ -1,4 +1,14 @@
-import VueRouter from "vue-router"
+import VueRouter from "vue-router";
 
-const router = new VueRouter({})
-export default router
+import Test from "pages/Test";
+
+const router = new VueRouter({
+  mode: history,
+  routers: [
+    {
+      path: "/test",
+      component: Test
+    }
+  ]
+});
+export default router;
