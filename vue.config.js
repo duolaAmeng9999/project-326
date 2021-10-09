@@ -14,11 +14,11 @@ module.exports = {
       }
     }
   },
-  devServer: {
+  /* devServer: {
     proxy: {
       "/wenjing": {
         traget: " x"
       }
     }
-  }
+  } */
 };

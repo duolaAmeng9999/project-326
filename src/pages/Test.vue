@@ -1,10 +1,11 @@
 <template>
-  <div>Route-Test</div>
+  <div>route-test</div>
 </template>
 
 <script>
 export default {
   name: "Test",
+  
 };
 </script>
 
